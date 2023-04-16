@@ -1,0 +1,18 @@
+package com.google.android.gms.internal.ads;
+
+import android.os.Parcel;
+import android.os.Parcelable;
+
+/* renamed from: com.google.android.gms.internal.ads.tj */
+final class C2223tj implements Parcelable.Creator<C2260uj> {
+    C2223tj() {
+    }
+
+    public final /* synthetic */ Object createFromParcel(Parcel parcel) {
+        return new C2260uj(parcel);
+    }
+
+    public final /* synthetic */ Object[] newArray(int i) {
+        return new C2260uj[i];
+    }
+}
